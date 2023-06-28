@@ -12,7 +12,10 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
-
+#import os
+#import django
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "apispractices.settings")
+#django.setup()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,7 +44,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'users',
-    'crud'
 
 ]
 
